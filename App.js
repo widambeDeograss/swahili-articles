@@ -98,7 +98,7 @@ function TabNavigator() {
         },
         headerStyle: { backgroundColor: Platform.OS === "android" ? Colors.primaryColor : "" },
         headerTintColor: Platform.OS === "android" ? "white" : Colors.primaryColor,
-        tabBarActiveTintColor: Colors.accentColor,
+        tabBarActiveTintColor: Colors.primaryColor,
         tabBarInactiveTintColor: 'gray',
         headerShown:false
       })

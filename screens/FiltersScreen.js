@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, Switch, Platform } from 'react-native';
 import Colors from '../constants/Colors';
 
 const FilterSwitch = props => {
+    
   return (
     <View style={styles.filterContainer}>
       <Text>{props.label}</Text>
@@ -17,28 +18,34 @@ const FilterSwitch = props => {
 };
 
 function FiltersScreen() {
+  const [Tech, setTech] = useState(false);
+    const [Ent, setEnt] = useState(false);
+    const [Pol, setPol] = useState(false);
+    const [Spot, setSpot] = useState(false);
+
+
   return (
     <View style={styles.screen}>
     <Text style={styles.title}>Available Filters / Restrictions</Text>
     <FilterSwitch
       label="Technology"
-      // state={isGlutenFree}
-      // onChange={newValue => setIsGlutenFree(newValue)}
+      state={Tech}
+      onChange={newValue => setTech(newValue)}
     />
     <FilterSwitch
       label="Entertainment"
-      // state={isLactoseFree}
-      // onChange={newValue => setIsLactoseFree(newValue)}
+      state={Ent}
+      onChange={newValue => setEnt(newValue)}
     />
     <FilterSwitch
       label="Politics"
-      // state={isVegan}
-      // onChange={newValue => setIsVegan(newValue)}
+      state={Pol}
+      onChange={newValue => setPol(newValue)}
     />
     <FilterSwitch
       label="Economics"
-      // state={isVegetarian}
-      // onChange={newValue => setIsVegetarian(newValue)}
+      state={Spot}
+      onChange={newValue => setSpot(newValue)}
     />
   </View>
   )

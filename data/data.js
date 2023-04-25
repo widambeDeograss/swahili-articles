@@ -7,7 +7,7 @@ export const data = {
     "title": "New Apple iPhone release",
     "author": "John Smith",
     "created_at": "2022-06-15T09:30:00Z",
-    "image_url": "https://example.com/iphone.jpg",
+    "image_url": "https://images.unsplash.com/photo-1569183091671-696402586b9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
     "tags": ["apple", "iphone", "technology"]
     },
@@ -15,7 +15,7 @@ export const data = {
     "title": "Artificial intelligence breakthrough",
     "author": "Jane Doe",
     "created_at": "2022-07-01T14:45:00Z",
-    "image_url": "https://example.com/ai.jpg",
+    "image_url": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
     "tags": ["artificial intelligence", "technology", "research"]
     }
@@ -29,7 +29,7 @@ export const data = {
     "author": "Abdul Ahmed",
     "created_at": "2022-10-15T07:15:00Z",
     "image_url": "https://example.com/magufuli.jpg",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labo re et dolore magna aliqua. Ut enim ad minim veniam...",
     "tags": ["Tanzania", "politics", "elections"]
     },
     {
